@@ -1,4 +1,4 @@
-# Dragonfly EKS Application!!
+# Dragonfly EKS Application!
 
 
 #### Following steps to be done if dragonfly app need to be created from scratch from laptop
