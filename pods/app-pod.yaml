@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dragonfly
+spec:
+  selector:
+    matchLabels:
+      run: dragonfly
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: dragonfly
+    spec:
+      containers:
+      - name: dragonfly
+        image: tejadocker11/dragonfly
+        ports:
+        - containerPort: 80
